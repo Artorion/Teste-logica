@@ -1,0 +1,63 @@
+body {
+    width: 50vw;
+    /* width = ocupação do espaço da linha */
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#destino {
+    color: gray;
+    background-color: rgb(49, 49, 49);
+    font-size: x-large;
+}
+
+.texto1 {
+    color: rgb(255, 166, 0);
+    background-color: rgb(250, 225, 177);
+}
+
+.paragrafo1 {
+    font-size: small;
+    padding: 5px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+.texto2 {
+    color: rgb(2, 218, 2);
+    background-color: rgb(176, 248, 176);
+}
+
+.paragrafo2 {
+    font-size: small;
+    padding: 5px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto3 {
+    color: red;
+    background-color: rgb(253, 198, 198);
+}
+
+.paragrafo3 {
+    font-size: small;
+    padding: 5px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto4 {
+    color: purple;
+    background-color: rgb(187, 111, 187);
+}
+
+.paragrafo4 {
+    font-size: small;
+    padding: 5px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
