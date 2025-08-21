@@ -22,16 +22,20 @@ h1 {
     background-color: rgb(85, 219, 19);
     text-align: center;
 }
+
 .textotitulo2 {
     color: black;
     background-color: lightgreen;
+
 }
 .textotitulo3 {
     color: black;
     background-color:rgb(193, 215, 236) ;
+
 }
 #titulo3 {
     color: aqua;
     background-color: gray;
     text-align: center;
 }
+
