@@ -1,0 +1,70 @@
+@import url(cores.css);
+/* import url() = importar as cores do file cores.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom,var(--corheaderinicial), var(--corheaderfinal));
+    /* to bottom = de cima para baixo */
+    color: var(--corletraslink);
+    padding: 15px;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 3.2em;
+    margin-top: 15px;
+    text-shadow: 3px 3px 6px rgba(72, 72, 72, 0.582);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header > p {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-weight: 300;
+    opacity: 0.95;
+}
+
+nav {
+    margin-top: 30px;
+    /* margem em cima */
+    margin-bottom: 16px;
+    /* margem embaixo  */
+}
+
+nav > a {
+    text-decoration:none;
+    color: var(--corletraslink);
+    background-color: var(--corbotaoheader);
+    border-radius: 25px;
+    padding: 14px 28px;
+    border: 2px solid var(--corbotaoheader);
+    margin: 0px 8px;   
+    display: inline-block;
+    /* inline-block = ocupar uma parte da linha do tipo block pois o transforma funciona apenas no tipo block */
+}
+
+nav a:hover {
+    /* hover = animação */
+    background-color: rgba(255, 255, 255, 0.105);
+    transform: scale(1.05);
+    /* transforma = zoom */
+}
+
+footer {
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--corrodape);
+    color: var(--corletraslink);
+    position: fixed;
+    /* position: fixed = posicao fixada */
+    bottom: 0;
+    /* bottom: 0 = na posicao zero abaixo */
+}

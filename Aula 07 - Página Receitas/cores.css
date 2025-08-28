@@ -1,0 +1,10 @@
+:root{
+    /* :root = criar variável */
+    --corheaderinicial: #e7610d;
+    --corheaderfinal: #b75901e9;
+    --corfundobody: #dddbdb;
+    --cormain: white;
+    --corletraslink: #fff;
+    --corrodape: #333;
+    --corbotaoheader: #ffffff49;
+}
