@@ -1,0 +1,39 @@
+@import url(cores.css);
+
+body {
+    background-color: var(--corfundobody);
+}
+
+.main {
+    width: 50vw;
+    border: 1px solid black;
+    background-color: var(--cormain);
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.62);
+    border-radius: 15px;
+}
+
+.imgmain {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    height: 350px;
+}
+
+main > section > h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main > section > h3 {
+    color: var(--cortituloh3);
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main > section > ul {
+    line-height: 1.5;
+}
