@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+h1{
+    margin-bottom: 5px;
+}
+
+#img-tela-grande, #img-tela-media{
+    display: none;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    background-color: rgb(83, 75, 75);
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+}
+
+button{
+    background-color: rgb(63, 85, 85);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: 100%;
+}
+
+@media (min-widht: 1025px) and (max-widht:1440px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60vw;
+        height: 60vw;
+    }
+    #img-tela-media {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
