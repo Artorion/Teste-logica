@@ -1,0 +1,66 @@
+/* Iremos ver prox. aula */
+/* *{} mudança para todas as tags */
+style{
+    @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    /* importar uma fonte (google fonts) */
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family = mudar a fonte da escrita */
+}
+
+body{
+    background-color: white;
+}
+/* background-color = mudar cor de fundo */
+header{
+    background-color: white;
+    text-align: right;
+}
+
+main{
+    font-size: 16px;
+    /* px = pixels */
+}
+
+h1{
+    text-align: center;
+    color: orange   ;
+}
+
+
+p{
+    font-size: 1em;     
+    /* font-size = tamanho da letra */
+    /* em = relativo em questão ao tamanho "pai"(multiplicação) */
+    font-weight: bolder;
+    /* font weigh = expessura da fonte */
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: justify;
+    /* text-align = alinhamento */
+    line-height: 20px;
+    letter-spacing: 50;
+    /* line-height: ;espaçamento de linhas */
+    text-indent: normal;
+    /* text-indent = parágrafo */
+}
+
+/* color pode escolher por rgb ou hexadecimal (ffffffff) */
+
+main > section > div > p{ 
+    color: red; 
+    /* caminho do código */
+}
+
+a{
+    text-decoration: none;
+    /* tirar o sublinhado */
+    color: purple;
+    font-style: italic;
+    /* estilo da fonte*/
+}

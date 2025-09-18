@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 255, 255, 0.047);
+}
+
+main {
+    background-color: white;
+    width: 60vw;
+    margin: 50px auto;
+    /* left = vertical right = horizontal */
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: red;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0px 15px;
+    /* margin = top / left / bottom */
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.415);
+}
+
+button {
+    background-color: rgba(3, 89, 123, 0.959);
+    padding: 10px;
+    color: white;
+    border: none;
+    /* border = none para remover a borda */
+    border-radius: 15px;
+    width: 25%;
+    cursor: pointer;
+    /* cursos: pointer = aparecer a mão quando colocar o mouse em cima */
+}
+
+button[type="reset"] {
+    background-color: red;
+    /* mudar o botão específico [type=""] */
+}

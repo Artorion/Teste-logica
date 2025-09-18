@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: red;
+        }
+        .logotime{
+            width: 15px;
+            height: 15px;
+            padding-right: 3px;
+        }
+        table{
+            margin:auto;
+            width: 60vw;
+            border-collapse: collapse;
+            /* border-collapse: collapse = retirar o espaçamento dos conteúdos */
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.249);
+            background-color: white;
+        }
+
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 5px 5px;
+        }
+
+        tr > th {
+            background-color: rgba(0, 255, 255, 0.48);
+        }
+
+        .logo {
+            height: 15px;
+            width: 15px;
+        }
+
+        body{
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Brasileirão 2025</h1>
+
+    <table>
+        <thead>
+        <!-- table = criar uma tabela -->
+         <tr>
+            <!-- tr = linha -->
+            <th colspan="2">Clubes</th>
+            <!-- colspan="2" = esta coluna ocupará duas colunas -->
+            <th>Pontos</th>
+            <th>Partidas</th>
+            <!-- th = cabeçalho-->
+         </tr>
+        </thead>
+
+        <tbody>
+         <tr>
+            <td><img class="logo" src="Imagens/flamengo.png" alt=""></td>
+            <td>Flamengo</td>
+            <td>47</td>
+            <td>21</td>
+         </tr>
+         <tr>
+            <td><img class="logo" src="Imagens/cruzeiro.png" alt=""></td>
+            <td>Cruzeiro</td>
+            <td>44</td>
+            <td>22</td>
+         </tr>
+         <tr>
+            <td><img class="logo" src="Imagens/palmeiras.png"alt=""></td>
+            <td><strong>Palmeiras</strong></td>
+            <td>43</td>
+            <td>20</td>
+         </tr>
+         <tr>
+            <td><img class="logo" src="Imagens/bahia.png" alt="" ></td>
+            <td>Bahia</td>
+            <td>36</td>
+            <td>20</td>
+         </tr>
+         <tr>
+            <td><img class="logo" src="Imagens/botafogo.png"alt=""></td>
+            <td>Botafogo</td>
+            <td>35</td>
+            <td>20</td>
+         </tr>
+         <tr>
+            <td><img class="logo" src="Imagens/mirassol.png" alt=""></td>
+            <td>Mirassol</td>
+            <td>35</td>
+            <td>20</td>
+         </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+main {
+    background-color: white;
+    width: 60vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin-top: 30px;
+}
+
+#celularpequeno {
+    display: none;
+}
+
+#celularmedio {
+    display: none;
+    /* display: none = desaparecer com o conteúdo*/
+} 
+#tablet {
+    display: none;
+}
+#notebook {
+    display: none;
+}
+#desktop {
+    display: none;
+}
+#tv {
+    display: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #celularpequeno {
+        display: none;
+    }
+
+    #celularmedio {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    #celularpequeno, #celularmedio {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+    #celularpequeno, #notebook, #tablet {
+        display: none;
+    }
+
+    #notebook {
+        display: block;
+    }
+}
+
+@media (min-width:1441px) and (max-width:1920px){
+    #celularpequeno, #notebook, #tablet, #notebook {
+        display: none;
+    }
+
+    #desktop {
+        display: block;
+    }
+}
+
+@media (min-width:1921){
+    #celularpequeno, #notebook, #tablet, #notebook, #desktop{
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
+}
